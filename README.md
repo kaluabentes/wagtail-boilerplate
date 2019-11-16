@@ -12,5 +12,6 @@ A starter point for Wagtail based applications
 1. Run `$ pip install -r requirements.txt`
 1. Run `$ python src/manage.py migrate`
 1. Run `$ python src/manage.py runserver`
+1. Run `$ python src/manage.py createsuperuser` to create a user to login into admin panel
 1. Open `http://127.0.0.1:8000/`
 1. Open `http://127.0.0.1:8000/cms` to access the cms admin panel
