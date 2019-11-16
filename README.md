@@ -8,7 +8,7 @@ A starter point for Wagtail based applications
 
 ## Setup
 
-1. Activate your env with your favorite env manager, then;
+1. Activate your env with your favorite env manager, then
 1. Run `$ pip install -r requirements.txt`
 1. Run `$ python src/manage.py migrate`
 1. Run `$ python src/manage.py runserver`
