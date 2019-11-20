@@ -16,10 +16,11 @@
             {% endwith %}
         {% endblock %}
     </title>
+    {% render_bundle 'main' 'css' %}
   </head>
   <body class="{% block body_class %}{% endblock %}">
     {% wagtailuserbar %}
     {% block content %}{% endblock %}
-    {% render_bundle 'main' %}
+    {% render_bundle 'main' 'js' %}
   </body>
 </html>
